@@ -36,6 +36,7 @@ description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64
 - [img4tool](https://github.com/tihmstar/img4tool) by tihmstar  
 - [tsschecker](https://github.com/tihmstar/tsschecker) by tihmstar  
 - [libirecovery](https://formulae.brew.sh/formula/libirecovery) by libimobiledevice  
+- [kairos](https://github.com/dayt0n/kairos) by dayt0n
 - [KPlooshFinder](https://github.com/palera1n/KPlooshFinder) by plooshi and palera1n  
 - [kerneldiff](https://github.com/mcg29/kerneldiff) by mcg29  
 - [ssh.tar.zst](/assets/checkm8-x64-ramdisk/ssh.tar.zst) by verygenericname  
