@@ -13,6 +13,7 @@ description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64
 ## Credits
 
 - [verygenericname](https://github.com/verygenericname) for [SSHRD_Script](https://github.com/verygenericname/SSHRD_Script) which this guide used some commands from, and also for [sshtars](https://github.com/verygenericname/sshtars)  
+- iArchive for iram.tar which some binaires were taken from  
 - [mcg29](https://x.com/mcg29_) and [Ralph0045](https://x.com/ralph0045) for [dualbootfun](https://dualbootfun.github.io/downgrade) which this guide used some commands from  
 > **Note:**  
 > For the rest of the credits, see [Prerequisites](#prerequisites)
