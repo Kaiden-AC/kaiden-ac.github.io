@@ -16,6 +16,7 @@ description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64
 - [mcg29](https://x.com/mcg29_) and [Ralph0045](https://x.com/ralph0045) for [dualbootfun](https://dualbootfun.github.io/downgrade) which this guide used some commands from  
 > **Note:**  
 > For the rest of the credits, see [Prerequisites](#prerequisites)
+
 ---
 
 ## Prerequisites
