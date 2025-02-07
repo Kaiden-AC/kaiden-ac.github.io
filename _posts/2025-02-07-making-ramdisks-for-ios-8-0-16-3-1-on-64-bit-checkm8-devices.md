@@ -1,13 +1,21 @@
 ---
 layout: post
 title: Making ramdisks for iOS 8.0 – 16.3.1 on 64-bit checkm8 devices
-date: 2025-02-07 13:25 +1300
+date: 2025-02-07 13:55 +1300
 description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64-bit checkm8 devices
 ---
 
 > **Note:**  
 > When you see angle brackets (`< >`), they indicate placeholders. **Do not** include the brackets in your input. For example, `<enter>` means press the Enter key, and `<default value - 4>` means input the default value minus 4.
 
+---
+
+## Credits
+
+- [verygenericname](https://github.com/verygenericname) for [SSHRD_Script](https://github.com/verygenericname/SSHRD_Script) which this guide used some commands from, and also for [sshtars](https://github.com/verygenericname/sshtars)  
+- [mcg29](https://x.com/mcg29_) and [Ralph0045](https://x.com/ralph0045) for [dualbootfun](https://dualbootfun.github.io/downgrade) which this guide used some commands from  
+> **Note:**  
+> For the rest of the credits, see [Prerequisites](#prerequisites)
 ---
 
 ## Prerequisites
