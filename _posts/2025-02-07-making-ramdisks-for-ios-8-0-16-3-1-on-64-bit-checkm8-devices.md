@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making ramdisks for iOS 8.0 – 16.3.1 on 64-bit checkm8 devices
-date: 2025-02-07 13:55 +1300
+date: 2025-03-02 15:20 +1300
 description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64-bit checkm8 devices
 ---
 
@@ -211,7 +211,7 @@ For iOS 9 and below, **skip the patching step** and instead use:
    Review the output to find the minimum size required, and then run:
    
    ```bash
-   hdiutil resize -size <MINIMUM_SIZE> ramdisk.dmg
+   hdiutil resize -size <MINIMUM_SIZE>b ramdisk.dmg
    ```
    
    Replace `<MINIMUM_SIZE>` with the smallest size value provided in the limits output.
