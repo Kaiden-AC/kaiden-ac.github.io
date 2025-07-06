@@ -120,6 +120,9 @@ Unmount both partitions and reboot the device<br>
 `reboot_bak`<br>
 
 ## Patching boot components
+
+**Note: I will not patch boot files for you, please do not contact me for this**<br>
+
 First decrypt iBSS and iBEC from your iPhone 5C 7.0 iPSW<br>
 `xpwntool iBSS.boardconfig.RELEASE.dfu iBSS.raw -iv <iv> -k <key>`<br>
 `xpwntool iBEC.boardconfig.RELEASE.dfu iBEC.raw -iv <iv> -k <key>`<br>
