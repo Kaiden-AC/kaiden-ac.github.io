@@ -39,7 +39,7 @@ description: A guide for manually creating ramdisks for iOS 8.0 – 16.3.1 on 64
 - [kairos](https://github.com/dayt0n/kairos) by dayt0n
 - [KPlooshFinder](https://github.com/palera1n/KPlooshFinder) by plooshi and palera1n  
 - [kerneldiff](https://github.com/mcg29/kerneldiff) by mcg29  
-- [ssh.tar.zst](/assets/checkm8-x64-ramdisk/ssh.tar.zst) by verygenericname  
+- [ssh.tar.zst](/assets/checkm8-x64-ramdisk/ssh.tar.xz) by verygenericname  
   *(Modified by me to add a few HFS+ tools.)*
 
 ---
@@ -172,7 +172,7 @@ For iOS 9 and below, **skip the patching step** and instead use:
      ```
    - **Extract the tarball:**  
      ```bash
-     sudo tar --zstd -xvf ssh.tar.zst -C /tmp/rd
+     sudo tar -xJvf ssh.tar.xz -C /tmp/rd
      ```
 
 2. **Additional step for targets 11.4.2 or below**  
@@ -233,9 +233,17 @@ For iOS 9 and below, **skip the patching step** and instead use:
      ```bash
      irecovery -f iBSS.img4
      ```
+   - **(For A7 only) Send iBSS again:**  
+     ```bash
+     irecovery -f iBSS.img4
+     ```
    - **Send iBEC:**  
      ```bash
      irecovery -f iBEC.img4
+     ```
+   - **(For A10 and above only) Execute iBoot:**  
+     ```bash
+     irecovery -c go
      ```
    - **Send the ramdisk:**  
      ```bash
