@@ -3,9 +3,9 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: bluesky
-  icon: "fa-brands fa-bluesky"
-  url: "https://bsky.app/profile/kaiden.cc"
+# - type: bluesky
+#   icon: "fa-brands fa-bluesky"
+#   url: "https://bsky.app/profile/kaiden.cc"
 
 - type: github
   icon: "fab fa-github"
