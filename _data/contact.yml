@@ -1,14 +1,18 @@
 #  The contact options.
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 # - type: bluesky
 #   icon: "fa-brands fa-bluesky"
 #   url: "https://bsky.app/profile/kaiden.cc"
 
 - type: github
   icon: "fab fa-github"
+
+- type: reddit
+  icon: 'fa-brands fa-reddit'
+  url: 'https://www.reddit.com/user/kaiden-cc/'
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
@@ -31,9 +35,6 @@
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
 #
-- type: reddit
-  icon: 'fa-brands fa-reddit'
-  url: 'https://www.reddit.com/user/kaiden-cc/'
 #
 # - type: threads
 #   icon: 'fa-brands fa-threads'
