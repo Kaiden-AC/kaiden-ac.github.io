@@ -26,20 +26,20 @@ description: >- # used by seo meta and the atom feed
 url: "https://kaidencc.github.io"
 
 github:
-  username: kaidencc # change to your GitHub username
+  username: Kaiden-AC # change to your GitHub username
 
-twitter:
-  username: kaiden_cc # change to your Twitter username
+# twitter:
+#   username: kaiden_cc # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: kaiden.cc
-  email: contact@kaiden.cc # change to your email address
+  name: Kaiden
+  email: contact@kaidenac.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/kaiden_cc # change to your Twitter homepage
-    - https://github.com/kaidencc # change to your GitHub homepage
+    # - https://twitter.com/kaiden_cc # change to your Twitter homepage
+    - https://github.com/Kaiden-AC # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
