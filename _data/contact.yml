@@ -2,17 +2,21 @@
 
 # - type: bluesky
 #   icon: "fa-brands fa-bluesky"
-#   url: "https://bsky.app/profile/kaiden.cc"
+#   url: ""
 
 - type: github
   icon: "fab fa-github"
 
-- type: reddit
-  icon: 'fa-brands fa-reddit'
-  url: 'https://www.reddit.com/user/kaiden-cc/'
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+- type: telegram
+  icon: "fa-brands fa-telegram"
+  url: "https://t.me/KaidenAC"
 
 - type: email
   icon: "fas fa-envelope"
